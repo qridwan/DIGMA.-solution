@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../Banner/Banner";
 import Features from "../Features/Features";
 import Navigation from "../Navigation/Navigation";
+import Services from "../Services/Services";
 
 const Home = () => {
   const header = {
@@ -19,8 +20,11 @@ const Home = () => {
         <Banner />
       </header>
 
-      <section className="container">
+      <section>
       <Features/>  
+    </section>
+    <section>
+        <Services/>
     </section>
 
     </div>
