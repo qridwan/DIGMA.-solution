@@ -1,8 +1,12 @@
 import React from "react";
 import Banner from "../Banner/Banner";
+import Contact from "../Contact/Contact";
 import Features from "../Features/Features";
+import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Navigation";
+import Reviews from "../Reviews/Reviews";
 import Services from "../Services/Services";
+import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
   const header = {
@@ -16,17 +20,13 @@ const Home = () => {
   return (
     <div>
       <header style={header}>
-        <Navigation />
         <Banner />
       </header>
-
-      <section>
-      <Features/>  
-    </section>
-    <section>
-        <Services/>
-    </section>
-
+      <Features />
+      <Services />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   );
 };
