@@ -3,35 +3,35 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div class="background">
-  <div class="contact-container">
-    <div class="screen">
+        <div className="background">
+  <div className="contact-container">
+    <div className="screen">
 
-      <div class="screen-body">
-        <div class="screen-body-item left">
-          <div class="app-title">
+      <div className="screen-body">
+        <div className="screen-body-item left">
+          <div className="app-title">
             <span>CONTACT</span>
             <span>US</span>
           </div>
-          <div class="app-contact">CONTACT INFO : +222 222 2222 22</div>
+          <div className="app-contact">CONTACT INFO : +222 222 2222 22</div>
         </div>
-        <div class="screen-body-item">
-          <div class="app-form">
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="NAME"  />
+        <div className="screen-body-item">
+          <div className="app-form">
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="NAME"  />
             </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="EMAIL" />
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="EMAIL" />
             </div>
-            <div class="app-form-group">
-              <input class="app-form-control" placeholder="CONTACT NO" />
+            <div className="app-form-group">
+              <input className="app-form-control" placeholder="CONTACT NO" />
             </div>
-            <div class="app-form-group message">
-              <input class="app-form-control" placeholder="MESSAGE" />
+            <div className="app-form-group message">
+              <input className="app-form-control" placeholder="MESSAGE" />
             </div>
-            <div class="app-form-group buttons">
-              <button class="app-form-button mr-3">CANCEL</button>
-              <button class="app-form-button">SEND</button>
+            <div className="app-form-group buttons">
+              <button className="app-form-button mr-3">CANCEL</button>
+              <button className="app-form-button">SEND</button>
             </div>
           </div>
         </div>

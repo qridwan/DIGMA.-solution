@@ -1,19 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .link {
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
 }
 .link:hover {
-    text-decoration: none;
-    color: rgb(241, 238, 238);
-    
+  text-decoration: none;
+  color: rgb(241, 238, 238);
 }
 
 li {
-    display: inline-block;
+  display: inline-block;
+}
+
+.btn-blueCyan {
+  background: linear-gradient(700deg, #1b96cf, #45b6a7);
+  
 }

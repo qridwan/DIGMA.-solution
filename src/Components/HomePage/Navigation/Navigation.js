@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <Navbar
-      style={{ backgroundImage: "linear-gradient(700deg, #FF5B7D, #F9C227)" }}
+      style={{     background: 'linear-gradient(700deg, #1b96cf, #45b6a7)'
+      }}
       bg=""
       expand="md"
       sticky="top"
     >
-      <Navbar.Brand href="#home">
+      <Navbar.Brand>
         <Link to="/" className="link font-weight-bolder"> DIGMA. Solution</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

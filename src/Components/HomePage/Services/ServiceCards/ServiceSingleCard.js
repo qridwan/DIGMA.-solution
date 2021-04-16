@@ -25,7 +25,11 @@ const ServiceSingleCard = ({ service }) => {
               <button className="btn btn-light btn-sm float-right">
                 Read More
               </button>
+              <button className=" btn btn-blueCyan btn-sm  text-light">
+                BOOK
+            </button>
             </div>
+            
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const Home = () => {
   const header = {
     minHeight: "500px",
     width: "100%",
-    backgroundImage: "linear-gradient(60deg, #F9C227,#FF5B7D)",
+    background:' linear-gradient(700deg, #1b96cf, #45b6a7)',
     margin: 0,
     padding: 0,
   };
