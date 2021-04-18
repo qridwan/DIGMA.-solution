@@ -4,13 +4,13 @@ import bannerImg from "../../../Images/bannerImg.png";
 const Banner = () => {
   const banner = {
     minHeight: "450px",
-    maxHeight: "60vh",
+    maxHeight: "100vh",
     display: "grid",
     placeItems: "center",
   };
   return (
     <div style={banner}>
-      <Row style={{marginRight: 0}}>
+      <Row style={{ marginRight: 0 }}>
         <Col
           sm={7}
           className="d-flex align-items-center justify-content-center"

@@ -17,7 +17,6 @@ const Login = () => {
   const location = useLocation();
   const { from } = location.state || { from: { pathname: "/" } };
   const [userInfo, setUserInfo] = useContext(UserContext);
-
   const googleProvider = new firebase.auth.GoogleAuthProvider();
 
   const handleGoogleSignIn = () => {
@@ -33,11 +32,11 @@ const Login = () => {
           photo: photoURL,
         };
         setUserInfo(isSignedIn);
+        localStorage.setItem("user", JSON.stringify(userInfo));
         history.replace(from);
       })
       .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
+       const errorMessage = error.message;
         console.log(
           "🚀 ~ file: Login.js ~ line 42 ~ .then ~ errorMessage",
           errorMessage
@@ -46,29 +45,27 @@ const Login = () => {
   };
 
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-6">
-          <div className="card">
-            <form className="login-box">
+    <div className="container-fluid btn-blueCyan ">
+      <div className="row justify-content-center">
+        <div className="col-md-6 ">
+          <div className="login-card">
+            <div className="login-box">
               <h1>Login</h1>
               <p className="text-warning"> Please Login With Google!!</p>{" "}
               <input type="text" name="" placeholder="Username" />{" "}
               <input type="password" name="" placeholder="Password" />{" "}
               <small className="forgot text-muted">Forgot password?</small>{" "}
-              <input type="submit" name="" value="Login" />
-            </form>
-
-            <button
-              className="btn btn-danger google m-5"
-              onClick={handleGoogleSignIn}
-            >
-              <FontAwesomeIcon
-                className="icoGoogle text-light bg-danger"
-                size="3x"
-                icon={faGoogle}
-              />
-            </button>
+              <button
+                className="btn btn-danger ml-auto my-4"
+                onClick={handleGoogleSignIn}
+              >
+                <FontAwesomeIcon
+                  className="icoGoogle text-light "
+                  size="2x"
+                  icon={faGoogle}
+                />
+              </button>
+            </div>
           </div>
         </div>
       </div>

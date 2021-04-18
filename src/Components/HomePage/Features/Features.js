@@ -1,14 +1,14 @@
-import React from 'react';
-import AboutUs from './AboutUs/AboutUs';
-import FeaturesCards from './FeaturesCards/FeaturesCards';
+import React from "react";
+import AboutUs from "./AboutUs/AboutUs";
+import FeaturesCards from "./FeaturesCards/FeaturesCards";
 
 const Features = () => {
-    return (
-        <>
-        <FeaturesCards/>
-        <AboutUs /> 
-        </>
-    );
+  return (
+    <>
+      <FeaturesCards />
+      <AboutUs />
+    </>
+  );
 };
 
 export default Features;

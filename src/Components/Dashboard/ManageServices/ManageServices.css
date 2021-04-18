@@ -1,0 +1,21 @@
+.table-field {
+    width: 80%;
+    margin-left: auto;
+  }
+  .table-field tr {
+    background-color: rgba(240, 248, 255, 0.692);
+    border-bottom: 2px solid black;
+  }
+
+  @media only screen and (max-width: 600px){
+    .table-field {
+      overflow-x: scroll;
+    }
+    
+  }
+  @media only screen and (max-width: 430px){
+    .table-field {
+      margin: 0 ;
+    }
+    
+  }

@@ -6,10 +6,10 @@ const AboutUs = () => {
   return (
     <div className="container-fluid mt-5">
       <Row>
-        <Col md={6} className="d-flex align-items-center text-justify" >
+        <Col md={5} className="d-flex align-items-center text-justify">
           <Image src={AboutUsImg} alt="" fluid />
         </Col>
-        <Col md={5} className="d-flex align-items-center text-justify">
+        <Col md={7} className="d-flex align-items-center ">
           <div>
             <h2>
               We’r dynamic team of talented people of innovtive and marketing

@@ -33,7 +33,7 @@ const FeaturesCards = () => {
   return (
 <div  className="container">
     <h2 className="text-center mt-5">CORE FEATURES</h2>
-<CardGroup  className="m-5">
+<CardGroup  className="m-2">
       {featuringData.map((feature) => (
         <FeaturesSingleCard
           key={feature.id}
