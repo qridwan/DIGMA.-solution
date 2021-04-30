@@ -5,20 +5,21 @@ DIGMA means DIGITAL MARKETING!
 A full website for digital marketers!!
 This is full stack MERN Project.
 
-## Features
+## Core Features
 
-- In the HOME page theres six sections named BANNER, Core Features, Services, Testimonials, Contact and Footer.
+- In the HOME page theres six sections named BANNER, Core Features, Services, Testimonials, Contact and Footer. 
 
-- User can book any services through STIPE payment method by clicking service card. Before that user must ensure to sign in. Otherwise he/she is redirected to the login page.
+- Both Service & Testimonial sections are dynamically connected with mongoDB.
 
-- Signed in User can go to the DASHBOARD, where user will see his/her ordered status.
+- User can book any services through Stripe payment method by clicking service card. Before that user must ensure to sign in. Otherwise he/she is redirected to the login page.
 
-- User can also review the services from the DASHBOARD. Which is dynamically will shown to the home page's Testimonial section.
+- Signed in User can go to the DASHBOARD. Dashboard interface created with two separate role Admin & User
 
-- Authorised user(Admin) can perform specific activities.
-- Admin can Change the ordered status from the DASHBOARD, he/she can manage the services and create new services.
+- User can review the services from the DASHBOARD. Which will dynamically shown to the home page's Testimonial section.
 
-- Admin can make new Admin from dashboard
+- Admin get access to change, update & delete the Services & also can change the order status.
+
+- Admin can make new Admin from dashboard through giving email address
 
 
 # Major Dependencies 
