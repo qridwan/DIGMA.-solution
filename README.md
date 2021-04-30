@@ -7,6 +7,7 @@ This is full stack MERN Project.
 
 ![homeSS](screenshots/home.png)
 ![homeSS](screenshots/services.png)
+![testimonials](screenshots/testimonials.png)
 ## Core Features
 
 - In the HOME page theres six sections named BANNER, Core Features, Services, Testimonials, Contact and Footer. 
@@ -23,7 +24,6 @@ This is full stack MERN Project.
 
 - Admin can make new Admin from dashboard through giving email address
 
-![testimonials](screenshots/testimonials.png)
 ![Admin](screenshots/adminPanel1.png)
 ![User](screenshots/userPanel1.png)
 # Major Dependencies 
